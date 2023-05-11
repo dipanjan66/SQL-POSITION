@@ -1,0 +1,36 @@
+
+-- POSITION:-
+
+-- Find Position in Alphabet.
+
+------------------------------------------------------
+
+-- Example 01:==>
+
+-- name - is a column
+
+-- employee - is a Table
+
+-- Find Position of n in the Alphabets of name column.
+
+
+
+select name, INSTR('name', n) from employee
+
+
+
+--------------------------------------------------------
+
+-- Example 02:==>
+
+
+SELECT INSTR("W3Schools.com", "COM") AS MatchPosition;
+
+
+--------------------------------------------------------
+
+-- Example 03:==>
+
+SELECT CustomerName, INSTR(CustomerName, "a")
+FROM Customers;
+
